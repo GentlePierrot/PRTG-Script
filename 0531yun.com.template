@@ -1,0 +1,14 @@
+{
+	"prtg":{
+		"result":[
+			{
+				"channel":"设备id",
+				"value":$.data[0].deviceAddr
+			},
+			{
+				"channel":"水温",
+				"value":$.data[0].dataItem[0].registerItem[0].data
+			}
+		]
+	}
+}
